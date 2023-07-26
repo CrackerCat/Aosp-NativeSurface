@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="NativeSurface"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Users\;CMake Files\Users\Administrator\;CMake Files\Users\Administrator\AppData\;CMake Files\Users\Administrator\AppData\Local\;CMake Files\Users\Administrator\AppData\Local\Android\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\;CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NativeSurface">
+				<Option output="D:/Code/c++/Android/SurfaceTools-Libry/outputs/arm64-v8a/libNativeSurface.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/fonts"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_touch"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_draw"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_utils"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/icon"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/sources/android/native_app_glue"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/include/c++"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 NativeSurface"/>
+					<CompileFile command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NativeSurface/fast">
+				<Option output="D:/Code/c++/Android/SurfaceTools-Libry/outputs/arm64-v8a/libNativeSurface.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/fonts"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_touch"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_draw"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_utils"/>
+					<Add directory="D:/Code/c++/Android/SurfaceTools-Libry/include/icon"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/sources/android/native_app_glue"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/include/c++"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.7/include"/>
+					<Add directory="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/toolchains/llvm/prebuilt/windows-x86_64/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 NativeSurface/fast"/>
+					<CompileFile command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/prebuilt/windows-x86_64/bin/make.exe -f &quot;D:/Code/c++/Android/SurfaceTools-Libry/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_draw/Android_draw.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_draw/init.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_touch/Android_touch.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_utils/And64InlineHook/And64InlineHook.hpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Android_utils/Android_utils.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface/Aosp_surface.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface/aosp_10/native_surface_10.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface/aosp_11/native_surface_11.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface/aosp_12/native_surface_12.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/Aosp_surface/aosp_13/native_surface_13.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imconfig.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imgui.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imgui_impl_android.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imgui_impl_opengl3.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imgui_internal.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imstb_rectpack.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imstb_textedit.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/imstb_truetype.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/ImGui/stb_image.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/icon/font.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/icon/iconfont.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/include/surfaceTools.h">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Android_draw/Android_draw.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Android_draw/init.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Android_touch/Android_touch.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Android_utils/And64InlineHook/And64InlineHook.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Android_utils/Android_utils.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/Aosp_surface/Aosp_surface.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui_draw.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui_impl_android.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui_impl_opengl3.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui_tables.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/imgui_widgets.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/ImGui/stb_image.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/src/surfaceTools.cpp">
+			<Option target="NativeSurface"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/android-legacy.toolchain.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/android.toolchain.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/flags.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/platforms.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Clang.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Determine.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android-Initialize.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Android.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\"/>
+		</Unit>
+		<Unit filename="D:/Code/c++/Android/SurfaceTools-Libry/Users/Administrator/AppData/Local/Android/Sdk/ndk/25.2.9519653/build/cmake/hooks/pre/Determine-Compiler.cmake">
+			<Option virtualFolder="CMake Files\Users\Administrator\AppData\Local\Android\Sdk\ndk\25.2.9519653\build\cmake\hooks\pre\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

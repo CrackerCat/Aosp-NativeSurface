@@ -23,8 +23,7 @@ void init_imgui();
 void init_screen_config();
 void release_android_draw();
 bool init_android_draw();
-void drawBegin();
-void drawEnd();
+ImTextureID createTexture(unsigned char *buffer,int len);
 
 //TextureInfo ImAgeHeadFile(const char* ImagePath);
 
